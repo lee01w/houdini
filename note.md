@@ -30,3 +30,7 @@
     d = trunc(d);
     d *= ch('height');
     @P.y = d;
+
+## 6
+
+Primitives wrangle에서의 @P는 읽기만 가능
