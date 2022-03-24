@@ -34,3 +34,18 @@
 ## 6
 
 Primitives wrangle에서의 @P는 읽기만 가능
+
+## 7
+
+    vector pos = minpos(1, @P);
+
+vector  minpos(geometry, point)  
+Returns the position of the closest point in the given geometry to the point.  
+주어진 지오메트리에서 포인트에 가장 가까운 포인트의 위치를 ​​반환합니다.
+
+    int pt = nearpoint(1, @P);
+
+int  nearpoint(geometry, pt)  
+Returns the number of the closest point on the geometry. This will only search against points, not the surface locations of the geometry.  
+기하 도형에서 가장 가까운 점의 번호를 반환합니다. 이것은 지오메트리의 표면 위치가 아닌 점에 대해서만 검색합니다.
+
