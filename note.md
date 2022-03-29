@@ -58,4 +58,11 @@ Returns the number of the closest point on the geometry. This will only search a
 
 normalize : 크기 1짜리 vector  
 dot : 내적, 각도 크기 float  
-cross : 외적, 수직이 되는 방향 vector  
+
+    vector pos = point(1,'P',0);
+    pos = normalize(pos);
+    @Cd = dot(@N, pos);
+
+cross : 외적, 수직이 되는 방향 vector
+
+    @N = cross(@N, {0,1,0});
