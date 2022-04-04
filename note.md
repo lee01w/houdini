@@ -68,3 +68,5 @@ cross : 외적, 수직이 되는 방향 vector
     @N = cross(@N, {0,1,0});
 
 ## 10
+
+    vextor rel = relpointbbox(0, @P);
