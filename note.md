@@ -5,6 +5,16 @@
     float d = length(@P);
     @P.y = sin(d);
 
+## 3
+clamp
+
+    float d = length(@P);
+    @P.y = clamp(d,1,2);
+fit
+
+    float d = length(@P);
+    @P.y = fit(d,1,2,1,3);
+
 ## 4
 
     float d = length(@P);
