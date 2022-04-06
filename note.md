@@ -6,6 +6,7 @@
     @P.y = sin(d);
 
 ## 3
+
 clamp
 
     float d = length(@P);
