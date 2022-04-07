@@ -81,3 +81,9 @@ cross : 외적, 수직이 되는 방향 vector
 ## 10
 
     vextor rel = relpointbbox(0, @P);
+
+## 12
+
+    int [] nearpoints(geometry, vector pt, float maxdist, int maxpts)
+    
+    i[]@a = nearpoints(1,@P,20);
