@@ -84,6 +84,12 @@ cross : 외적, 수직이 되는 방향 vector
 
 ## 12
 
-    int [] nearpoints(geometry, vector pt, float maxdist, int maxpts)
-    
+    int [] nearpoints(1, @P, 반경, 개수)
+
     i[]@a = nearpoints(1,@P,20);
+
+    f[]@myarray = array(a,b,c+d);
+
+## 13
+
+    foreach(elenent; array){ }
