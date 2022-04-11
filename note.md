@@ -93,3 +93,13 @@ cross : 외적, 수직이 되는 방향 vector
 ## 13
 
     foreach(elenent; array){ }
+
+## 14
+
+    int aa = addpoint(0,{0,0,0});
+    removepoint(0,aa);
+    addvertex(0,프리미티브이름, 포인트이름);
+
+    removepoint(0,@ptnum);
+    removeprim(0,@primnum,0);
+    removeprim(0,@primnum,1);
