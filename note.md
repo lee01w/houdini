@@ -100,6 +100,27 @@ cross : 외적, 수직이 되는 방향 vector
     removepoint(0,aa);
     addvertex(0,프리미티브이름, 포인트이름);
 
+    addprim(0,'polyline',@ptnum,pt);
+    int pr = addprim(0,'polyline');
+
     removepoint(0,@ptnum);
     removeprim(0,@primnum,0);
     removeprim(0,@primnum,1);
+
+## 15
+
+    float d = fit(d, min, max, 0, 1);
+    @Cd = vector(chramp('color', d));
+
+## 16
+
+Returns the minimum of the arguments.  
+
+    min(<vector>v);
+
+You can override this by adding a new vector attribute, @up:  
+
+    v@up = {0,0,1};
+    v@up = set(sin(@Time),0,cos(@Time));
+
+## 17
