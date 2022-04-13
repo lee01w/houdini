@@ -124,3 +124,8 @@ You can override this by adding a new vector attribute, @up:
     v@up = set(sin(@Time),0,cos(@Time));
 
 ## 17
+
+    @orient = quaternion(angle,axis);
+
+    maketransform()
+    qconvert()
