@@ -129,3 +129,21 @@ You can override this by adding a new vector attribute, @up:
 
     maketransform()
     qconvert()
+
+    radian = radians(degree)
+
+eulertoquaternion(rot, 0)  
+0 - xyz  
+1 - xzy  
+2 - yxz  
+3 - yzx  
+4 - zxy  
+5 - zyx
+
+    @orient = eulertoquaternion(rot,0);
+lerp(), slerp()
+
+    lerp(float, float, amount);
+    lerp(vector, vector, amount);
+
+    slerp(vector4, vector4, amount);
