@@ -175,4 +175,10 @@ lerp(), slerp()
     nearpoints(1, @P, 반경, 개수);
     pcfind(1, 'P', @P, 반경, 개수);
 
-    setpointattrib();
+    setpointattrib(0, 'Cd', mp, col, 'set');
+
+    pcopen();
+    pcfilter();
+
+    int mypc = pcopen(1, 'P', @P, chf('d'), chi('amount'));
+    @P = pcfilter(mypc, 'P');
