@@ -141,9 +141,38 @@ eulertoquaternion(rot, 0)
 5 - zyx
 
     @orient = eulertoquaternion(rot,0);
+
 lerp(), slerp()
 
     lerp(float, float, amount);
     lerp(vector, vector, amount);
 
     slerp(vector4, vector4, amount);
+
+## 18
+
+    float bounds[] = primintrinsic(1,'bounds',0);
+
+    setprimintrinsic(0,'closed',2,0);
+
+## 19
+
+    @P = primuv(1, 'P', 0, uv);
+    @N = primuv(1, 'N', 0, uv);
+    
+    zyxdist()
+        float dist
+        int primnum
+        vector uv
+    
+    f@dist;
+    i@primid;
+    v@uv;
+    @dist = xyzdist(1, @P, @primid, @uv);
+
+## 20
+
+    nearpoints(1, @P, 반경, 개수);
+    pcfind(1, 'P', @P, 반경, 개수);
+
+    setpointattrib();
