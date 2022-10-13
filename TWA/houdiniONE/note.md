@@ -30,3 +30,12 @@ feedback    vs    merge
 1. 선의 부피감을 주는 방법으로 poliwire, wireframe
 1. 선의 색을 주는 방법으로 chramp() 를 이용했는데 이때 0~1의 값이 필요했기에 @u 를 만들어 선의 시작은 0 끝은 1로 표현, chramp 의 방식을 float 에서 color 로 변경 후 @u 에 색을 대응
 1. 선의 alpha 값도 줄수있다
+
+## Particle 02
+
+위치 기반 Motion Blur (float frame 개념 필요 ($F → $FF))
+
+1. Geo Time Samples
+1. Xform time Samples
+
+속도 기반 Motion Blur (Object 의 Render > Sampling > Velocity Blur)
