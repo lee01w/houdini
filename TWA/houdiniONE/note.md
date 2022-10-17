@@ -54,3 +54,11 @@ Particle 시스템이 구동이 되기위한 3가지 요소
 @v += @gravity;
 @P += @v;
 ```
+
+## particle 06
+
+1. Particle system
+1. Save to Cache
+1. Point to Line & Material
+1. Render setting & Render (exr)
+1. Compositing
