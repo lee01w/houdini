@@ -47,3 +47,10 @@ Particle 시스템이 구동이 되기위한 3가지 요소
 - POP Object
 - POP Source
 - POP Solver
+
+## Particle 05
+
+```
+@v += @gravity;
+@P += @v;
+```
