@@ -71,3 +71,9 @@ Particle 시스템이 구동이 되기위한 3가지 요소
 1. 메터리얼 줬음
 1. 기본적인 렌더와 색에 대한 트윅
 1. exr 시퀀스로 출력, 후디니에서 합성
+
+## particle 07
+
+1. Source
+1. POP 관련 Node
+1. Volume, Vector Field
