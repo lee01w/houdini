@@ -62,3 +62,12 @@ Particle 시스템이 구동이 되기위한 3가지 요소
 1. Point to Line & Material
 1. Render setting & Render (exr)
 1. Compositing
+
+정리
+
+1. 파티클 시스템을 만듬
+1. 충돌에 대한 세팅을 만듬
+1. 포인트에 대한 시뮬레이션 정보를 저장하고 선으로 바꿈
+1. 메터리얼 줬음
+1. 기본적인 렌더와 색에 대한 트윅
+1. exr 시퀀스로 출력, 후디니에서 합성
