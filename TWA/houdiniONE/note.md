@@ -77,3 +77,10 @@ Particle 시스템이 구동이 되기위한 3가지 요소
 1. Source
 1. POP 관련 Node
 1. Volume, Vector Field
+
+정리
+
+- Noise 를 활용할 수 있는가
+- Geometry 와 겹치는 부분을 어떻게 특정하는가?
+- Mixamo 자료에서도 Source 를 골라서 만들어낼수 있는가?
+- 경계를 집어낼수 있는가?
