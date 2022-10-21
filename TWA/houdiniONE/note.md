@@ -97,3 +97,18 @@ Point(입자가 작은 가루) 를 이쁘게 뽑을 때 유의할 점
 정리
 
 - 밀도 = 개수*size / 해상도 (완벽한 식은 아니고 느낌)
+
+## particle 09
+
+1. 우리는 현재 1개의 단일 소스를 이용하고 있다.
+1. 아직 소스의 그룹을 제대로 활용한 바가 없다.
+1. 모든 파티클은 동일한 물리법칙이 적용되고 있다.
+1. 우리는 아직 충돌에 대한 조건을 이용한 적이 없다.
+1. update reap이 뭔데
+1. pop wrangle로 reap
+1. 스트림에 대해 모른다.
+1. 스트림이 뭔지
+1. 스트림과 그룹
+1. pop properties & pop collisiondetect
+1. stream예제1 _ pop replicate - 비
+1. stream예제2 _ pop - 폭죽
