@@ -50,7 +50,7 @@ Particle 시스템이 구동이 되기위한 3가지 요소
 
 ## Particle 05
 
-```
+```bash
 @v += @gravity;
 @P += @v;
 ```
