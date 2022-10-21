@@ -112,3 +112,7 @@ Point(입자가 작은 가루) 를 이쁘게 뽑을 때 유의할 점
 1. pop properties & pop collisiondetect
 1. stream예제1 _ pop replicate - 비
 1. stream예제2 _ pop - 폭죽
+
+```bash
+setpointgroup(0,'over',@ptnum,1,'set');
+```
