@@ -116,3 +116,27 @@ Point(입자가 작은 가루) 를 이쁘게 뽑을 때 유의할 점
 ```bash
 setpointgroup(0,'over',@ptnum,1,'set');
 ```
+
+## particle 10
+
+Stream 있음
+
+- POP Replicate
+- POP Location
+- POP source
+
+Stream 없음
+
+- POP Color
+- POP wrangle
+- POP Force
+- POP Collision Detect
+- POP Group
+- POP Wind
+- POP Properties
+
+빗방울 표현
+
+- Collision
+- replicate
+- reao(@dead)
