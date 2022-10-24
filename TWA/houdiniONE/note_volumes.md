@@ -1,0 +1,38 @@
+# Houdini1 volumes
+
+## 01
+
+### Volume : 공간을 voxel 단위로 표현한 부피를 가진 결과물
+
+- voxel(volume + pixel) : volume에서 이용되는 기본 단위
+
+### Volume 의 분류
+
+1. 결과로서의 Volume
+
+    밀도에 의해 시각적 표현이 가능 : 연기, 구름, 불, 화염, 에너지
+
+1. 정보 저장으로서의 Volume
+
+    시각적으로는 큰 의미를 갖지 않음 : 바람, 곡률, normal
+
+### Voxel 의 고유 Number
+
+```text
+    x:a y:b z:c
+
+    x + (y*a) + (z*a*b)
+```
+
+### SDF : Signed Distance Field
+
+### Volume 을 정의하기 위한 몇가지 사항
+
+1. Volume 을 어디에 두고 싶은지 : Point 의 위치정보
+1. 바운딩 박스가 존재 : 어느 정도의 규모에서 공간을 나눌지 정함
+1. 어떻게 쪼개져 있을지 정해야 함. 그래야 voxel 의 사이즈가 정해짐
+1. Volume 이 정의가 됐다면, 이 내용은 모두 Primitive 에 저장이 됨
+1. 어떤 오브젝트 기준으로 Volume 을 만들려면 안과 밖을 구분해 줘야함. 이때 각각의 voxel 의 위치에서 오브젝트까지의 최단거리를 활용한다면 SDF 을 구할수 있음. Density 로도 Volume 을 표현할 수 있음
+1. 정보의 효율을 위해서 그냥 Volume 이 아니라 VDB 포멧을 이용하기도 함
+
+## 02

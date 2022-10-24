@@ -1,4 +1,4 @@
-# Houdini One
+# Houdini1 Starter & Particles
 
 ## EP7 Blicks 반복 작업을 위하여
 
