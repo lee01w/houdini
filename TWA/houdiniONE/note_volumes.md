@@ -35,4 +35,29 @@
 1. 어떤 오브젝트 기준으로 Volume 을 만들려면 안과 밖을 구분해 줘야함. 이때 각각의 voxel 의 위치에서 오브젝트까지의 최단거리를 활용한다면 SDF 을 구할수 있음. Density 로도 Volume 을 표현할 수 있음
 1. 정보의 효율을 위해서 그냥 Volume 이 아니라 VDB 포멧을 이용하기도 함
 
-## 02
+## 04
+
+### Volume 관련 Node
+
+- Name : Volume 의 이름을 바꿔줌
+- Volume SDF : Fog Volume 을 SDF Volume 으로 바꿔줌
+- Convert VDB
+
+```text
+Fog Volume  →(Volume SDF)→  SDF Volume
+Fog Volume  →(Convert VDB)→  Fog VDB
+Fog Volume  →(Convert VDB (VDB Class : Convert Fog to SDF))→  SDF VDB
+Fog VDB  →(Convert VDB (VDB Class : Convert Fog to SDF))→  SDF VDB
+Fog VDB  →(Convert VDB (Convert To : Volume))→  Fog Volume
+SDF VDB  →(Convert VDB (Convert To : Volume))→  SDF Volume
+Fog VDB  →(Convert VDB (Convert To : Volume))→(Volume SDF)→  SDF Volume
+SDF VDB  →(Convert VDB (VDB Class : Convert SDF to Fog))→  Fog VDB
+SDF Volume  →(Convert VDB)→  SDF VDB
+- Volume  →(압축, 손실)→  VDB
+- VDB  →(완벽할 수 없음)→  Volume
+```
+
+- Volume Merge : Volume 의 사칙연산을 쉽게 해줌, 기준이 되는 해상도가 자동으로 늘어남
+- VDB  Combine
+- Volume Blur
+- VDB Smooth
