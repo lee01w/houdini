@@ -91,3 +91,5 @@ Curvature : 곡률의 크기 Float 값으로 이루어진 Volume 정보
 Gradient : volume 의 Normal, SDF 가 커지는 흐름 방향
 
 - VDB Analysis
+
+Curvature  =  ± 1 / r (곡선에 접하는 구의 반지름)
