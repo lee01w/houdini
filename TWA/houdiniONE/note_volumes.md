@@ -70,7 +70,24 @@ SDF Volume  →(Convert VDB)→  SDF VDB
 1. volume with solver
 1. particles with vector field
 
-Vector Volume 을 시각화
+### Vector Volume 을 시각화
 
 - Volume Slice
 - Volume Trail
+
+```text
+Noise Function 의 진화
+Periodic Noise(0~1) → Flow Noise → Anti-Aliased Noise(-1~1) → Anti-Aliased Flow Noise → Turbulent Noise(0~1) → Curl Noise (-1~1)
+
+- 0~1 의 값을 반환하는 Noise : Scale
+- -1~1 의 값을 반환하는 Noise : 공간
+```
+
+- Curl Noise : 공간상의 Noise 표현에 SDF 을 다룰수 있음, Surface Effect Radius 파라미터로 조정
+
+### Curvature & Gradient
+
+Curvature : 곡률의 크기 Float 값으로 이루어진 Volume 정보
+Gradient : volume 의 Normal, SDF 가 커지는 흐름 방향
+
+- VDB Analysis
