@@ -93,3 +93,10 @@ Gradient : volume 의 Normal, SDF 가 커지는 흐름 방향
 - VDB Analysis
 
 Curvature  =  ± 1 / r (곡선에 접하는 구의 반지름)
+
+>Volume 에서의 Curvature 필드는 SDF 가 같은 곳, Isovalue 가 같은 곳의 Curvature 값들을 보여주는 Volume 공간
+
+1. Vector Volume
+1. Vector Volume 시각화
+1. Curl Noise : 공간상의 Noise 표현에 SDF 을 다룰수 있음
+1. Volume 을 분석 (Gradient, Curvature)
