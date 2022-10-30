@@ -100,3 +100,23 @@ Curvature  =  ± 1 / r (곡선에 접하는 구의 반지름)
 1. Vector Volume 시각화
 1. Curl Noise : 공간상의 Noise 표현에 SDF 을 다룰수 있음
 1. Volume 을 분석 (Gradient, Curvature)
+
+## 6
+
+Volume 에서 다룰 수 있는 정보의 형태
+
+1. Float Volume
+1. Vector Volume
+1. Signed Distant Field
+1. Gradient
+1. Curvature
+
+### advect
+
+```text
+이류 : 원본 Volume + 방향 + 이동(VDB Advect)
+확산 : 원본 Volume + (방향 + 이동) + 값의 평형
+```
+
+Volume 의 Vector 정보를 확인할 때 Volume Trail 이용
+
