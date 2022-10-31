@@ -127,3 +127,11 @@ Volume 의 Vector 정보를 확인할 때 Volume Trail 이용
            ↓ Vector Field (Volume VOP or Volume Wrangle)   
            VCB Advect
 ```
+
+## 7
+
+Solver 에서 VDB Advect 다루기
+
+1. Solver Setting 을 잘 잡을 수 있는가?
+1. 효과의 속도를 조절할 수 있는가? Timestep 의 값을 이해 했는가?
+1. Vector field 를 다룸에 있어 겁먹지 않고 정보들을 쓸 수 있는가?
