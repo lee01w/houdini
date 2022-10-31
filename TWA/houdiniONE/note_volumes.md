@@ -120,3 +120,10 @@ Volume 에서 다룰 수 있는 정보의 형태
 
 Volume 의 Vector 정보를 확인할 때 Volume Trail 이용
 
+```text
+@P +=     @N     * @curvature;
+           ↓            ↓
+       @gradient   @curvature
+           ↓ Vector Field (Volume VOP or Volume Wrangle)   
+           VCB Advect
+```
