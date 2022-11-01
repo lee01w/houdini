@@ -140,3 +140,20 @@ Solver 에서 Fog Volume 다루기
 
 - VDB Combine : VDB 합치기
 
+## 8
+
+불이나 연기에 대한 묘사에 필요한 것
+
+1. 연기 : Density
+1. 속도 (Vector Field : Advect 를 위해 필요함) : V or vel
+1. 온도 : Temperature
+
+DOP Network
+
+- Smoke Object : 얻고 싶은 Volume 결과가 어떤 해상도, 어떤 이름을 가지고 싶은지 정함
+- Volume Source : 어떤 자료를 불러서 Source 로 사용할 것인가 (density, temperature, v, vel, wind)
+- Smoke Solver : 어떻게 계산을 할 것인가
+
+Smoke Solver 작동 순서
+
+- Source Volume (Geometry) → Target Field (DOP Network) → Solver
