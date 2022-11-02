@@ -157,3 +157,8 @@ DOP Network
 Smoke Solver 작동 순서
 
 - Source Volume (Geometry) → Target Field (DOP Network) → Solver
+
+```text
+Temperature → Vel → Density
+Force(중력) → V(속도) → P(위치)
+```
