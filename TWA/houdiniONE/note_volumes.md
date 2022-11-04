@@ -165,11 +165,28 @@ Force(중력) → V(속도) → P(위치)
 
 ## 9
 
-- Gas Dissipate : 밀도값 떨굼
-- Gas Turbulence : Noise Pattern 에 따른 추가의 Velocity 를 생성
+- Gas Dissipate : 밀도값 떨굼 (Evaporation Rate)
+- Gas Turbulence : Noise Pattern 에 따른 추가의 Velocity 를 생성 (Scale)
 - Gas Shred : Gradient 에 따른 추가의 Velocity 를 생성
 - Gas Disturb : Random 하게 Velocity 를 파괴
 - Gas Match Field : Field 를 복제
 - Gas Linear Combination : Field 계산
 - Gas Calculate : Field 계산
 - Gas Analysis : Field 분석
+
+### A. Smoke Solver
+
+1. Source
+1. Smoke Solver Setting
+1. Shape
+1. Tweak
+1. File Caching
+
+### B. POP Solver
+
+1. Source
+1. Solver Setting
+1. V
+1. Cache
+
+- POP Advect by Volumes
