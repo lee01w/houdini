@@ -192,3 +192,7 @@ Force(중력) → V(속도) → P(위치)
 - POP Advect by Volumes
 
 ## 10
+
+VDB from Particles
+
+- Poiont Radius Scale = Voxel Size * Minimum Radius in Voxel (Point로 만드는 표면에 대한 Volume이 사라짐)
