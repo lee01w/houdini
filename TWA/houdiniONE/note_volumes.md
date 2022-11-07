@@ -196,3 +196,10 @@ Force(중력) → V(속도) → P(위치)
 VDB from Particles
 
 - Poiont Radius Scale = Voxel Size * Minimum Radius in Voxel (Point로 만드는 표면에 대한 Volume이 사라짐)
+
+## 11
+
+Point Defrom을 사용하는 2가지 이유
+
+ 1. 정지 상태에서 만든 효과를 움직이는 상태에 덮어 씌우고 싶을 때
+ 1. 애니메이션의 움직임을 쫒아가되 Point의 위치 규칙이 깨지지 않게 하고 싶을 때
