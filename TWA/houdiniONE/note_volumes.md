@@ -211,3 +211,7 @@ Point Defrom을 사용하는 2가지 이유
 1. 시작점과 끝점 정의 내려주고, id 일치 시키기
 1. Noise Pattern 정의 내리기
 1. Detail 살리기
+
+- Point Deform
+- Ray
+- POP Attract
