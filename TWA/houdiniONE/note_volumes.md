@@ -220,3 +220,7 @@ Point Defrom을 사용하는 2가지 이유
 
 - Gamma 조정: Display Ooptions > Scene > Gamma
 - Volume Vop의 Parameter의 Name이 Bind Export의 Name과 일치하면 오류가 날 수 있어서 변형을 준다. (shadowscale → shasow_scale)
+
+## 16
+
+- Resample → Curve U Attribute
