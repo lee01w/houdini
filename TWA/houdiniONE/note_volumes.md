@@ -224,3 +224,4 @@ Point Defrom을 사용하는 2가지 이유
 ## 16
 
 - Resample → Curve U Attribute
+- VDB Visualize Tree → Active Voxels → Points with Values
