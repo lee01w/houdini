@@ -225,3 +225,11 @@ Point Defrom을 사용하는 2가지 이유
 
 - Resample → Curve U Attribute
 - VDB Visualize Tree → Active Voxels → Points with Values
+
+## 17
+
+1. 임시 필드를 만들어 줘야 한다.
+1. 임시 필드에 값을 담아줘야 한다.
+1. 어떤 이류규칙(advection)을 따를지 정해준다.
+1. 계산을 발생 시킨다.
+1. 임시필드를 지워준다.
