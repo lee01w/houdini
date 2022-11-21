@@ -233,3 +233,11 @@ Point Defrom을 사용하는 2가지 이유
 1. 어떤 이류규칙(advection)을 따를지 정해준다.
 1. 계산을 발생 시킨다.
 1. 임시필드를 지워준다.
+
+```text
+1. Gas Match Field
+2. (Gas Analysis), Gas Field VOP
+3. Gas Advect Field
+4. Gas Calculate
+5. Gas Linear Combination
+```
