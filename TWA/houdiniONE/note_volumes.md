@@ -241,3 +241,7 @@ Point Defrom을 사용하는 2가지 이유
 4. Gas Calculate
 5. Gas Linear Combination
 ```
+
+## 18
+
+- DOP Network → Cache에서 Cache Memory 조정 가능
