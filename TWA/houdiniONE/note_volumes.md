@@ -247,3 +247,6 @@ Point Defrom을 사용하는 2가지 이유
 - DOP Network → Cache에서 Cache Memory 조정 가능
 
 ## 19
+
+- Voxel Size (Division Size)가 작으면 Divergence Multiply 값을 줄여줘야 한다.
+- Source로 사용하는 Polygon의 Uniform Scale이 크면 Divergence Multiply 값을 줄여줘야 한다.
